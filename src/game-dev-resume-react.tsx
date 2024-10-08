@@ -36,7 +36,7 @@ const GameDevResume = () => {
       if (today > nextBirthday) {
         nextBirthday.setFullYear(nextBirthday.getFullYear() + 1);
       }
-      const diffTime = Math.abs(nextBirthday - today);
+      const diffTime = Math.abs(nextBirthday.getTime() - today.getTime());
       const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
       setDaysUntilBirthday(diffDays);
 
@@ -57,7 +57,7 @@ const GameDevResume = () => {
   const handleDownload = () => {
     // Replace 'path-to-your-resume-file.pdf' with the actual path to your resume file
     const link = document.createElement('a');
-    link.href = '/path-to-your-resume-file.pdf';
+    link.href = '/public/resume_Haritjewjaew.pdf';
     link.download = 'Harit_Jewkaew_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -112,9 +112,9 @@ const GameDevResume = () => {
         <section className="mb-8 bg-gray-800 p-4 rounded-lg border-2 border-green-400">
           <div className="flex items-start">
             <div className="w-1/4 mr-4 flex-shrink-0" style={{ maxWidth: '150px' }}>
-              <div className="aspect-square border-4 border-yellow-300 overflow-hidden">
-                <img src="/api/placeholder/150/150" alt="Harit Jewkaew" className="w-full h-full object-cover" />
-              </div>
+                <div className="aspect-square border-4 border-yellow-300 overflow-hidden">
+                <img src="/Avatar.png" alt="Harit Jewkaew" className="w-full h-full object-cover" />
+                </div>
             </div>
             <div className="flex-grow">
               <h2 className="text-2xl font-bold mb-2 text-green-400 flex items-center">
