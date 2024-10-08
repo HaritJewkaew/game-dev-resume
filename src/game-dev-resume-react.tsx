@@ -112,9 +112,9 @@ const GameDevResume = () => {
         <section className="mb-8 bg-gray-800 p-4 rounded-lg border-2 border-green-400">
           <div className="flex items-start">
             <div className="w-1/4 mr-4 flex-shrink-0" style={{ maxWidth: '150px' }}>
-                <div className="aspect-square border-4 border-yellow-300 overflow-hidden">
-                <img src="/Avatar.png" alt="Harit Jewkaew" className="w-full h-full object-cover" />
-                </div>
+                  <div className="aspect-square border-4 border-yellow-300 overflow-hidden">
+                  <img src={`${process.env.PUBLIC_URL}/Avatar.png`} alt="Harit Jewkaew" className="w-full h-full object-cover" />
+                  </div>
             </div>
             <div className="flex-grow">
               <h2 className="text-2xl font-bold mb-2 text-green-400 flex items-center">
