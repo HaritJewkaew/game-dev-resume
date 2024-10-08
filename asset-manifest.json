@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/game-dev-resume/static/css/main.98283f66.css",
+    "main.js": "/game-dev-resume/static/js/main.149c316c.js",
+    "static/js/453.3327479d.chunk.js": "/game-dev-resume/static/js/453.3327479d.chunk.js",
+    "index.html": "/game-dev-resume/index.html",
+    "main.98283f66.css.map": "/game-dev-resume/static/css/main.98283f66.css.map",
+    "main.149c316c.js.map": "/game-dev-resume/static/js/main.149c316c.js.map",
+    "453.3327479d.chunk.js.map": "/game-dev-resume/static/js/453.3327479d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98283f66.css",
+    "static/js/main.149c316c.js"
+  ]
+}
